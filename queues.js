@@ -19,7 +19,7 @@ class Queues {
   }
   //Agregar un elemento al final de la linea
   enqueue(value){
-     const current = new Node(value);
+    const current = new Node(value);
     if (this.length === 0){
       this.first = current;
       this.last = current;
